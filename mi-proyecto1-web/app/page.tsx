@@ -54,6 +54,40 @@ export default function Home() {
           para que cada raviata sea una obra de arte."
         </p>
       </section>
+      {/* 2.5 SECCIÓN DE CULTIVO DE HONGOS */}
+<section className="bg-stone-100 py-16 px-6 border-y border-stone-200">
+  <div className="max-w-4xl mx-auto">
+    <div className="flex flex-col md:flex-row items-center gap-10">
+      <div className="w-full md:w-1/2 relative h-80 rounded-2xl overflow-hidden shadow-xl">
+        <Image 
+          src="/cultivo-hongos.jpg" 
+          alt="Cultivo de Champiñones" 
+          fill 
+          className="object-cover"
+        />
+      </div>
+      <div className="w-full md:w-1/2">
+        <h2 className="text-3xl font-bold text-stone-800 mb-4">Ingredientes de Nuestra Huerta</h2>
+        <p className="text-orange-700 font-semibold mb-2 italic">Champiñones de París & Portobellos</p>
+        <p className="text-gray-600 mb-6">
+          En el subsuelo de nuestra fábrica recreamos el clima perfecto: 16°C de temperatura constante y 90% de humedad para cosechar cada mañana los hongos que rellenan nuestras pastas.
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="bg-white p-3 rounded-lg border border-stone-200">
+            <span className="block text-2xl mb-1">🍄</span>
+            <h4 className="font-bold text-sm">Cosecha Diaria</h4>
+            <p className="text-xs text-gray-500">Del sustrato a la raviolera.</p>
+          </div>
+          <div className="bg-white p-3 rounded-lg border border-stone-200">
+            <span className="block text-2xl mb-1">🌿</span>
+            <h4 className="font-bold text-sm">100% Orgánico</h4>
+            <p className="text-xs text-gray-500">Sin pesticidas ni químicos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* 3. MENÚ INTERACTIVO */}
       <section className="max-w-2xl mx-auto py-12 px-6">
