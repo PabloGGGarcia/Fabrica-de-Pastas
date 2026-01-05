@@ -60,7 +60,7 @@ export default function Home() {
     <div className="flex flex-col md:flex-row items-center gap-10">
       <div className="w-full md:w-1/2 relative h-80 rounded-2xl overflow-hidden shadow-xl">
         <Image 
-          src="cultivo-hongos.jpg" 
+          src="/cultivo-hongos.jpg" 
           alt="Cultivo de Champiñones" 
           fill 
           className="object-cover"
